@@ -19,3 +19,10 @@ Alternatively, you can add an ad block filter, but the sidebar is often useful a
     <td><img src="https://github.com/user-attachments/assets/1366d1cc-93fe-4434-a413-aab7cbfac648" width="300"></td>
   </tr>
 </table>
+
+## 2. Subreddit Top of the Week
+### Bookmarklet Code  
+```javascript
+javascript:(function(){window.location.href=`${window.location.href}top/?sort=top&t=week`;})();
+```
+This bookmarklet takes you to the top posts of the week for the subreddit you're currently viewing. Of course, you can adjust the time range by changing the `t` query parameter to `hour`, `day`, `month`, `year`, or `all`.
